@@ -1,6 +1,7 @@
 " General
 filetype plugin on
 filetype indent on
+map ; :
 set autoread
 
 " Colors
