@@ -1,3 +1,8 @@
+" General
+filetype plugin on
+filetype indent on
+set autoread
+
 " Colors
 colorscheme badwolf
 syntax enable
@@ -9,13 +14,18 @@ set shiftwidth=4
 set softtabstop=4
 
 " UI Config
-filetype indent on
+set backspace=eol,start,indent
+set cmdheight=1
 set cursorline
+set hid
+set laststatus=2
 set lazyredraw
+set magic
 set number
 set ruler
 set showcmd
 set showmatch
+set whichwrap+=<,>,h,l
 set wildmenu
 
 " Searching
@@ -26,3 +36,8 @@ set incsearch
 set foldenable
 set foldlevelstart=10
 set foldnestmax=10
+
+" Files
+set nobackup
+set nowb
+set noswapfile
